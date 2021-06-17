@@ -1,0 +1,415 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: gchhetri@in.ibm.com"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Click on the Upskill link #http://elearningm1.upskills.in/index.php#",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16305435401,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the upskill homepage",
+            "match": {
+              "location": "Featurestepdefination.user_is_on_the_upskill_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3214919000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Sign Up link",
+            "match": {
+              "location": "Featurestepdefination.user_click_on_Sign_Up_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14188499,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Registration page should be displayed",
+            "match": {
+              "location": "Featurestepdefination.registration_Page_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4722815200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverClass.driverInitialization()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Register a new user and send verification email",
+        "description": "",
+        "id": "register-in-upskill-page-and-send-email-functionality;register-a-new-user-and-send-verification-email;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1521816299,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverClass.driverClose()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User selects Course type",
+            "match": {
+              "location": "Featurestepdefination.user_selects_Course_type()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 260988000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter firstname \"Gaurav\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gaurav",
+                  "offset": 22
+                }
+              ],
+              "location": "Featurestepdefination.user_enter_firstname(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 168425500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enter lastname \"Chhetri\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chhetri",
+                  "offset": 21
+                }
+              ],
+              "location": "Featurestepdefination.user_enter_lastname(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179559701,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enter emailid \"gc@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gc@gmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "Featurestepdefination.user_enter_emailid(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186122000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter username \"JC25\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JC25",
+                  "offset": 21
+                }
+              ],
+              "location": "Featurestepdefination.user_enter_username(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155774000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enter password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345",
+                  "offset": 21
+                }
+              ],
+              "location": "Featurestepdefination.user_enter_password(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143807501,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enter confirm password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345",
+                  "offset": 29
+                }
+              ],
+              "location": "Featurestepdefination.user_enter_confirm_password(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11636392800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on Register button",
+            "match": {
+              "location": "Featurestepdefination.user_clicks_on_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48388700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "verify the Registration confirmation message and firstname \"Gaurav\" and lastname \"Chhetri\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gaurav",
+                  "offset": 60
+                },
+                {
+                  "val": "Chhetri",
+                  "offset": 82
+                }
+              ],
+              "location": "Featurestepdefination.verify_the_Registration_confirmation_message_and_firstname_and_lastname(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3108775700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Open the profile dropdown",
+            "match": {
+              "location": "Featurestepdefination.open_the_profile_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111729001,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Validate the email \"gc@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gc@gmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "Featurestepdefination.validate_the_email(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2807519199,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click on Inbox link",
+            "match": {
+              "location": "Featurestepdefination.user_click_on_Inbox_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7969863800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User click on Compose message icon",
+            "match": {
+              "location": "Featurestepdefination.user_click_on_Compose_message_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5304788500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters Send to email \"NC25\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NC25",
+                  "offset": 27
+                }
+              ],
+              "location": "Featurestepdefination.user_enters_Send_to_email(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 170487100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enters Subject \"acknowledgement mail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "acknowledgement mail",
+                  "offset": 21
+                }
+              ],
+              "location": "Featurestepdefination.user_enters_Subject(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 157302200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user enters Message to be sent \"User is verified\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "User is verified",
+                  "offset": 32
+                }
+              ],
+              "location": "Featurestepdefination.user_enters_Message_to_be_sent(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2526073800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User clicks on Send message button",
+            "match": {
+              "location": "Featurestepdefination.user_clicks_on_Send_message_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98352700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Message sent and verify the acknowledgement",
+            "match": {
+              "location": "Featurestepdefination.message_sent_and_verify_the_acknowledgement()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Register in upskill page and send email functionality",
+    "description": "",
+    "id": "register-in-upskill-page-and-send-email-functionality",
+    "keyword": "Feature",
+    "uri": "Featureupskill.feature"
+  }
+]
